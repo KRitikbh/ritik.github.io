@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+       body {
+      position: relative; 
+  }
+  .nav.navbar-nav li a:hover 
+           {
+              
+               display: block;
+               background-color: gray;
+           }
+           
+           .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  
+  #i
+  {
+      padding-top: 40px;
+  }
+  
+  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+
+#o
+  {
+      margin-top: 45px;
+       font-family: 'Bree Serif', serif;
+       text-align: center;
+  }
+  
+  .b1
+ {
+     text-align: center;
+ }
+ 
+ .th{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#p
+{
+    color: black;
+}
+
+.j
+{
+    font-size: 17px;
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+}
+
+.t
+{
+    margin-top: 30px;
+}
+
+.u
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.f
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+
+#k
+{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+#flip1, #flip2, #flip3
+{
+    text-align: center;
+    background-color: lightblue;
+    border: solid 1px #c3c3c3;
+    padding: 17px;
+     font-family: 'Bree Serif', serif;
+     font-size: 20px;
+      
+}
+
+#panel1, #panel2, #panel3 {
+    text-align: center;
+    background-color: gray;
+    border: solid 1px #c3c3c3;
+    padding: 50px;
+    display: none;
+    margin-bottom: 15px;
+    font-family: 'Spectral SC', serif;
+    font-size: 15px;
+}
+.o
+{ 
+      text-align: center;
+}
+.l
+{
+     background: url("lio1.jpg")no-repeat center;
+    background-size: cover; 
+}
+
+.lp
+{
+    background: url("images9.jpg")no-repeat center;
+    background-size: cover; 
+}
+
+.ko
+{
+      background-color: darkgray;
+    background-size: cover;  
+}
+.v
+{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.i
+{
+    background-color: black;
+}
+
+.kl
+{
+    margin-left: 30px;
+}
+
+.r
+{
+    margin-top: 20px;
+}
+  
+  </style>
+</head>
+<body class="ko" id="mypage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#myPage">My Portfolio</a>
+    </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right nav-tabs">
+            <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Work Experience</a></li>
+        </ul>
+      </div>
+    </div>
+</nav> 
+    
+  <div class="w3-row w3-padding-64 l" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="king1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1>
+      <div class="w3-container">
+          <h3 class="v"><b>Ritik Bhargava</b></h3>
+          <h6 class="j v"><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><b>Developer</b></h6>
+      </div>
+      <div class="w3-container">
+          <h4 class="v"><b>Phone No.</b></h4>
+      <p class="j"><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>8696000221</p>
+      </div>
+      <div class="w3-container">
+          <h4 class="v"><b>Email.</b></h4>
+      <p class="j"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ritik.bhargava@st.niituniversity.in</p>
+      </div>
+      <div class="w3-container">
+          <h4 class="v"><b>Address</b></h4>
+      <p class="j"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Biwadi,Rajasthan</p>
+      </div>
+      <div class="w3-container">
+          <h4 class="v"><b>Date of Birth</b></h4>
+      <p class="j"><i class="fa fa-calendar fa-fw w3-margin-right w3-large w3-text-teal"></i>September 10th, 1998</p>
+      </div>
+      <div class="w3-container">
+          <p class="j">I am a pursuing <b>Computer Science Engineering</b> with specialization in <b>Data Science</b>.I am a certified <b>Web Developer</b> and <b>programmer</b>.My Hobbies are playing outdoor games like cricket,football,Listening Music,watching movies and exploring new places.</p>
+      </div>
+    </div>
+  </div>
+    
+    <div class="container u" id="skills">
+        
+        <h1 class="w3-text-black w3-padding-16"><i class="fa fa-asterisk fa-fw w3-margin-right w3-margin-left w3-xxlarge w3-text-teal"></i>Skills</h1>
+        <h3 class="v">C Language</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+        <br>
+          <h3 class="v">SQL</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
+            </div>
+          </div>
+          <br>
+          <h3 class="v">JAVA CORE & ADVANCED</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+          </div>
+          <br>
+          <h3 class="v">HTML & CSS</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+          </div>
+          <br>
+          <h3 class="v">BOOTSTRAP</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:82%">82%</div>
+          </div>
+          <br>
+          <h3 class="v">PHP</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <br>
+          <h3 class="v">DATA STRUCTURE</h3>
+          <div class="w3-light-grey w3-round-xlarge w3-medium">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:78%">78%</div>
+          </div>
+          <br>
+        </div>
+    
+  
+   <!-- Right Column -->
+   <div class="container">
+    
+      <div class="w3-container w3-card w3-margin-bottom lp" id="project">
+        <h1 class="w3-text-black w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-margin-left w3-xxlarge w3-text-teal"></i>Projects</h1>
+        <div class="w3-container">
+            <h2 class="v">E-Commerce Web-Site</h2>
+          <p class="j">It helps the user to get useful items on internet sitting at home without going outsite at a reasonable and lowest guranteed rates</p>
+          <p class="j"><b>Technologies Used :  HTML, CSS, BOOTSTRAP,  MySQL , PHP </b></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+            <h2 class="v">Shopping Mall Management System</h2>
+            <p class="j">Shopping Mall Management System helps a to login and get the information about the products and sales details.The system stores all the information of the employee,their complete details.</p>
+            <p class="j"><b>Technologies Used :  MySQL</b></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+            <h2 class="v">Password Recovery System</h2>
+          <p class="j">If the user has lost or forgot his password this helps him recover his password</p>
+          <p class="j"><b>Technologies Used :  MySQL , SERVLET, JSP</b></p>
+          <hr>
+        </div>
+          <div class="w3-container">
+              <h2 class="v">Promotional Web-Site for a StartUp</h2>
+          <p class="j">Developed a promotional website for a startup <b>Paavni Organic Farm</b> for their investors to know about them.</p>
+          <p class="j"><b>Technologies Used :  HTML, CSS, BOOTSTRAP,  MySQL , SERVLET, JSP </b></p>
+          <hr>
+          </div>
+        <div class="w3-container">
+              <h2 class="v">Customize Search Engine</h2>
+          <p class="j">Users personal search engine for a fast, accurate and efficient result.</p>
+          <p class="j"><b>Technologies Used :  HTML, CSS, BOOTSTRAP,  MySQL , SERVLET, JSP </b></p>
+          </div>
+          </div>
+      </div>
+   <div class="container">
+      <div class="w3-container w3-card w3-margin-bottom t lp" id="education">
+        <h1 class="w3-text-black w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h1>
+        <div class="w3-container">
+            <h2 class="v">NIIT UNIVERSITY</h2>
+          <h3 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right w3-margin-left"></i>2015-19</h3>
+          <p class ="f"><b>CGPA : 8.16</b></p>
+          <p class="f"><b>Computer Science Engineer </b></p>
+          <p class="f"><b>Specialization: Data Scientist </b></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+            <h2 class="v">Modern Public School,Bhiwadi</h2>
+          <h3 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right w3-margin-left"></i>2000 - 2015</h3>
+          <p class="f"><b>10th Board : 93%</b></p>
+          <p class="f"><b>12th Board : 87%</b></p>
+        </div>
+      </div>
+   </div>
+
+    <div id="experience" class="container-fluid o">
+        <h1 id="k" class="w3-text-black w3-center"><b>Work Experience</b></h1>
+        <div id="flip1" ><b>Web Developement Training At Internshala (Click me to know More)</b></div>
+        <div id="panel1" > 6 weeks Summer Training in Web Developement at internshala developed an e-commerce website using HTML,CSS,BOOTSTRAP,MYSQL,PHP. 
+        </div>
+        <div id="flip2"><b>Ingenuity College Fest (Click me to know More)</b></div>
+<div id="panel2" >Head of events organising team at the college fest.
+</div>
+    
+        <div id="flip3" ><b>Paavni Organic Farm Startup (Click me to know More)</b></div>
+<div id="panel3" >Worked as a web developer and created functional and promotional website for the startup so the the people nad investors can know about their startup and products
+</div>
+    </div>
+   
+   
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-black w3-center r">
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <h5><b>You Can Find Me on social media</b></h5>
+  <div class="w3-xlarge w3-section">
+      <a href="https://www.linkedin.com/in/ritik-bhargava-756a2212b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+     <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+  <h4><b>Made By Ritik Bhargava</b></h4>
+</footer>
+
+   
+  <script>
+      $(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+    $("#flip3").click(function(){
+        $("#panel3").slideToggle("slow");
+    });
+      });
+      
+      
+      
+      $(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+</body>
+</html>
